@@ -1,0 +1,23 @@
+version: '3.9'
+networks:
+  app-tier:
+    driver: bridge
+
+services:
+  backend:
+    build:
+      context: ./backend
+    volumes:
+      - ./backend:/backend
+    ports:
+      - "5000:5000"
+    networks:
+      - app-tier
+
+  frontend:
+    build:
+      context: ./frontend
+    volumes:
+      - ./frontend/src:/frontend/src
+    ports:
+      - "3000:3000"

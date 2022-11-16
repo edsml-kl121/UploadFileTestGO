@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="font-face-RB"
+    style={
+      Object {
+        "color": "#696D83",
+        "fontSize": "32px",
+      }
+    }
+  >
+    <p
+      className="Title"
+      data-testid="main-1"
+    >
+      Websites Checker
+    </p>
+    <div
+      className="dropzone"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragEnter={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDrop={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      role="presentation"
+      style={
+        Object {
+          "marginTop": "0px",
+        }
+      }
+      tabIndex={0}
+    >
+      <input
+        className="input-zone"
+        multiple={true}
+        onChange={[Function]}
+        onClick={[Function]}
+        style={
+          Object {
+            "display": "none",
+          }
+        }
+        tabIndex={-1}
+        type="file"
+      />
+      <img
+        alt="csv"
+        src="csv.png"
+        width="100px"
+      />
+      <div
+        className="text-center"
+      >
+        <p
+          className="dropzone-content"
+          data-testid="notdropping-1"
+        >
+          Drag your .csv file here to start uploading.
+        </p>
+        <div
+          className="container"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col-lg-3 col"
+            />
+            <div
+              className="col-lg-6 col"
+            >
+              <div
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                  }
+                }
+              >
+                <div
+                  style={
+                    Object {
+                      "backgroundColor": "#96A1BB",
+                      "flex": 1,
+                      "height": "2px",
+                    }
+                  }
+                />
+                <div>
+                  <p
+                    data-testid="or-1"
+                    style={
+                      Object {
+                        "color": "#96A1BB",
+                        "marginTop": "12px",
+                        "textAlign": "center",
+                        "width": "70px",
+                      }
+                    }
+                  >
+                    OR
+                  </p>
+                </div>
+                <div
+                  style={
+                    Object {
+                      "backgroundColor": "#96A1BB",
+                      "flex": 1,
+                      "height": "2px",
+                    }
+                  }
+                />
+              </div>
+              <button
+                className="MuiButtonBase-root MuiButton-root MuiButton-contained px-5 py-3 MuiButton-contained px-5 py-3Primary MuiButton-sizeMedium MuiButton-contained px-5 py-3SizeMedium MuiButton-root MuiButton-contained px-5 py-3 MuiButton-contained px-5 py-3Primary MuiButton-sizeMedium MuiButton-contained px-5 py-3SizeMedium css-1w1rijm-MuiButtonBase-root-MuiButton-root"
+                data-testid="button-1"
+                disabled={false}
+                onBlur={[Function]}
+                onContextMenu={[Function]}
+                onDragLeave={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "#6749F5",
+                    "boxShadow": "none",
+                    "color": "white",
+                    "fontSize": "32px",
+                    "textTransform": "unset",
+                  }
+                }
+                tabIndex={0}
+                type="button"
+              >
+                Browse File
+              </button>
+            </div>
+            <div
+              className="col-lg-3 col"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="result mb-5"
+  >
+    <div
+      style={
+        Object {
+          "paddingBottom": "15px",
+        }
+      }
+    >
+      <p
+        data-testid="resulttitle-1"
+        style={
+          Object {
+            "fontSize": "36px",
+            "textAlign": "left",
+          }
+        }
+      >
+        Total 
+         Websites
+      </p>
+      <p
+        data-testid="minute-1"
+        style={
+          Object {
+            "fontSize": "24px",
+            "textAlign": "left",
+          }
+        }
+      >
+        (Used 
+        NaN
+         minute 
+        NaN
+         second)
+      </p>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="resultup col"
+      >
+        <p
+          data-testid="up-1"
+          style={
+            Object {
+              "fontSize": "24px",
+              "marginBottom": "0px",
+              "textAlign": "left",
+            }
+          }
+        >
+           UP 
+        </p>
+        <span
+          className="numbers"
+          data-testid="up-2"
+        />
+      </div>
+      <div
+        className="resultdown col"
+      >
+        <p
+          data-testid="down-1"
+          style={
+            Object {
+              "fontSize": "24px",
+              "marginBottom": "0px",
+              "textAlign": "left",
+            }
+          }
+        >
+           DOWN 
+        </p>
+        <span
+          className="numbers"
+          data-testid="down-2"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

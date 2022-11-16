@@ -1,0 +1,11 @@
+.loadzone {
+  text-align: center;
+  padding: 20px;
+  width: 50%;
+  margin: auto;
+  border-radius: 25px;
+  background-color: #FFFFFF;
+  font-size: 24px;
+  color: #A1AABE;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.25)
+}
